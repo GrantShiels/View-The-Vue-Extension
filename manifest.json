@@ -2,12 +2,12 @@
   "manifest_version": 3,
   "name": "View The Vue",
   "description": "Extension that allows the user to see what components on a web page are created using Vue",
-  "version": "0.1",
+  "version": "0.0.1",
   "action": {
-    "default_popup": "hello.html",
-    "default_icon": "Assets/Eye_Icon.png"
+    "default_icon": "src/assets/Eye_Icon.png"
   },
   "background": {
-    "service_worker": "background.js"
-  }
+    "service_worker": "src/scripts/background.js"
+  },
+  "permissions": ["activeTab", "scripting"]
 }
