@@ -4,10 +4,10 @@
   "description": "Extension that allows the user to see what components on a web page are created using Vue",
   "version": "0.0.1",
   "action": {
-    "default_icon": "src/assets/Eye_Icon.png"
+    "default_icon": "assets/Eye_Icon.png"
   },
   "background": {
-    "service_worker": "src/scripts/background.js"
+    "service_worker": "background.js"
   },
   "permissions": ["activeTab", "scripting"]
 }
